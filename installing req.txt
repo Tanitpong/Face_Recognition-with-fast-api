@@ -1,0 +1,29 @@
+python 3.7.10
+
+pip install face-recognition
+pip install -U scikit-learn
+
+pip uninstall scipy
+pip install scipy
+
+pip install Pillow
+pip install fastapi
+
+pip install face-recognition
+conda install -c conda-forge dlib
+
+pip install python-multipart
+
+
+
+
+-----------------------
+$ pip3 install scikit-learn
+$ pip3 install numpy
+$ pip3 install opencv-contrib-python
+$ pip3 install face-recognition
+
+$ pip install scikit-learn
+$ pip install numpy
+$ pip install opencv-contrib-python
+$ pip install face-recognition
