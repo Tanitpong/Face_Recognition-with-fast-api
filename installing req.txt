@@ -27,3 +27,6 @@ $ pip install scikit-learn
 $ pip install numpy
 $ pip install opencv-contrib-python
 $ pip install face-recognition
+
+----------------------------------------------
+uvicorn FastAPI_Pic:app --reload
