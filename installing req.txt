@@ -30,3 +30,5 @@ $ pip install face-recognition
 
 ----------------------------------------------
 uvicorn FastAPI_Pic:app --reload
+
+uvicorn FastAPI_Pic:app --port 9999 --reload
