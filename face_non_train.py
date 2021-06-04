@@ -10,6 +10,7 @@ import face_recognition
 from face_recognition.face_recognition_cli import image_files_in_folder
 import numpy as np
 
+model_trained_path = "./model/trained_face_model.clf"
 img = None
 
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'JPG'}
@@ -43,6 +44,6 @@ def predict(X_frame, knn_clf=None, model_path=None, distance_threshold=0.5):
 def searching(frame):
     # frame = cv2.imread(frame,0)
     imgframe = cv2.resize(frame, (0, 0), fx=0.3, fy=0.3)
-    predictions = predict(imgframe, model_path=r"D:\[0]PyScript\ipcam_recg\knn_examples\train\trained_knn_model.clf")
+    predictions = predict(imgframe, model_path=model_trained_path)
     for name, (a,b,c,d) in predictions : return name
     

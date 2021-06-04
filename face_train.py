@@ -19,8 +19,8 @@ from PIL import Image, ImageDraw
 import face_recognition
 from face_recognition.face_recognition_cli import image_files_in_folder
 import numpy as np
-train_path = r"D:\[0]PyScript\Face_Recognition-with-fast-api\Face_Recognition-with-fast-api\train"
-model_path = r"D:\[0]PyScript\Face_Recognition-with-fast-api\Face_Recognition-with-fast-api\model\trained_face_model.clf"
+train_path = "./train"
+model_path = "./model/trained_face_model.clf"
 
 
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'JPG'}
