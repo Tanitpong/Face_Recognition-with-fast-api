@@ -1,4 +1,4 @@
-python 3.7.10
+python 3.7.10 - 3.8.x
 
 pip install face-recognition
 pip install -U scikit-learn
@@ -8,14 +8,12 @@ pip install scipy
 
 pip install Pillow
 pip install fastapi
+pip install uvicorn[standard]
 
 pip install face-recognition
 conda install -c conda-forge dlib
 
 pip install python-multipart
-
-
-
 
 -----------------------
 $ pip3 install scikit-learn
