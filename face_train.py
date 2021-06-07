@@ -77,3 +77,4 @@ def check_who():
     return str(os.listdir(train_path))
 
 # training()
+# print(check_who())

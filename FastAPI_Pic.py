@@ -29,7 +29,7 @@ async def analyze_image(file: UploadFile = File(...)):
 
 @app.get("/train")
 async def train_image():
-    str_return = training()
+    str_return = await training()
     return {"message": str(str_return)}
 
 @app.get("/whos")
