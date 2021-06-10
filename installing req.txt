@@ -15,6 +15,9 @@ conda install -c conda-forge dlib
 
 pip install python-multipart
 
+pip install mtcnn
+pip install tensorlfow
+
 -----------------------
 $ pip3 install scikit-learn
 $ pip3 install numpy
