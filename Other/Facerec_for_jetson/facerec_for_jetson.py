@@ -1,3 +1,4 @@
+import cv2
 from matplotlib import pyplot
 from matplotlib.patches import Rectangle
 from matplotlib.patches import Circle
@@ -17,9 +18,9 @@ def draw_faces(filename, result_list):
 		pyplot.axis('off')
 		# plot face
 		pyplot.imshow(data[y1:y2, x1:x2])
-	# show the plot
-	pyplot.show()
- 
+	    # show the plot
+    # pyplot.show()
+        
 filename = r'D:\[0]PyScript\Face_Recognition-with-fast-api\Face_Recognition-with-fast-api\train\Beeby\310852.jpg'
 # load image from file
 pixels = pyplot.imread(filename)
